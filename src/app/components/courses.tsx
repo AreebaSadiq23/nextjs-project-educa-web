@@ -13,7 +13,7 @@ interface Course {
   tags: string[];
 }
 
-const courseCategories = {
+const courseCategories: Record<string, Course[]> = {
   "Web Development": [
     {
       id: 1,
@@ -145,7 +145,7 @@ const courseCategories = {
       tags: ["React Native", "Mobile Development"],
     },
   ],
-} as const;
+};
 
 type CourseCategory = keyof typeof courseCategories;
 
