@@ -21,7 +21,7 @@ const AboutSection: React.FC = () => {
   return (
     <section
       id="about"
-      className="relative bg-gradient-to-r from-pink-300 to-pink-300 py-16 px-6 text-white"
+      className="relative bg-gradient-to-r from-pink-300 to-pink-300 py-16 px-6 text-white max-w-screen-2xl mx-auto"
     >
       <div className="absolute inset-0 bg-[url('/path-to-background-image.svg')] bg-cover opacity-10 pointer-events-none"></div>
 

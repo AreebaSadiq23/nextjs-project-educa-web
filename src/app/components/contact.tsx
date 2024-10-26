@@ -4,7 +4,7 @@ export default function Contact() {
   return (
     <section
       id="contact"
-      className="flex flex-col lg:flex-row items-center justify-center min-h-screen p-6 bg-gray-100"
+      className="flex flex-col lg:flex-row items-center justify-center min-h-screen p-6 bg-gray-100 max-w-screen-2xl mx-auto"
     >
       {/* Left Content */}
       <div className="w-full lg:w-1/2 p-4 text-center lg:text-left mb-6 lg:mb-0">

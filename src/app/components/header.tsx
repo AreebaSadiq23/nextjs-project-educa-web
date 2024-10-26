@@ -13,7 +13,7 @@ const Header: React.FC<{ onRegisterClick: () => void }> = ({
   };
 
   return (
-    <header className="bg-transparent shadow-md fixed top-0 left-0 right-0 z-50">
+    <header className="bg-transparent shadow-md fixed top-0 left-0 right-0 z-50 max-w-screen-2xl mx-auto">
       <div className="max-w-7xl mx-auto flex items-center justify-between p-4">
         <div className="flex items-center">
           <span className="text-2xl text-gray-700 mr-2">
