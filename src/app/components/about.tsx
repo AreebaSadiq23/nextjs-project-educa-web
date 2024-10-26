@@ -21,12 +21,12 @@ const AboutSection: React.FC = () => {
   return (
     <section
       id="about"
-      className="relative bg-gradient-to-r from-purple-600 to-violet-800 py-16 px-6 text-white"
+      className="relative bg-gradient-to-r from-pink-300 to-pink-300 py-16 px-6 text-white"
     >
       <div className="absolute inset-0 bg-[url('/path-to-background-image.svg')] bg-cover opacity-10 pointer-events-none"></div>
 
       <div className="container mx-auto relative z-10">
-        <h2 className="text-4xl font-bold text-center mb-12 animate-pulse text-transparent bg-clip-text bg-gradient-to-r from-white to-gray-400">
+        <h2 className="text-4xl font-bold text-center mb-12 animate-pulse text-transparent bg-clip-text bg-gradient-to-r from-white to-gray-700">
           About Us
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">

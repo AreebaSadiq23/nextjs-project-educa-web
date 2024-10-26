@@ -13,8 +13,8 @@ const Header: React.FC<{ onRegisterClick: () => void }> = ({
   };
 
   return (
-    <header className="bg-transparent shadow-md rounded-lg fixed top-0 left-0 right-0 z-50">
-      <div className="max-w-6xl mx-auto flex items-center justify-between p-4">
+    <header className="bg-transparent shadow-md fixed top-0 left-0 right-0 z-50">
+      <div className="max-w-7xl mx-auto flex items-center justify-between p-4">
         <div className="flex items-center">
           <span className="text-2xl text-gray-700 mr-2">
             <FaGraduationCap />
